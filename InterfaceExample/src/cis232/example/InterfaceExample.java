@@ -24,6 +24,8 @@ public class InterfaceExample {
 			//DOESN'T WORK BECAUSE IT'S NOT IN SHAPE INTERFACE!!!!
 			//System.out.println("Shape perimeter is: " + s.getPerimeter());
 		}
+		
+		System.out.println(new Square(2));
 	}
 	
 }
